@@ -1,5 +1,5 @@
 // Router
-import { ROUTES } from "./router/routes"
+import { ROUTER } from "./router/router"
 
 // External liberaries
 import { BrowserRouter, Route, Routes } from "react-router-dom"
@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          {ROUTES.map((route) => (
+          {ROUTER.map((route) => (
             <Route
               key={route.path}
               path={route.path}

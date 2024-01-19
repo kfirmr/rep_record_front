@@ -1,3 +1,6 @@
+// Constants
+import { ROUTES } from "./routes";
+
 // External liberaries
 import { ReactElement } from "react";
 
@@ -9,9 +12,9 @@ interface IRoute {
     element: ReactElement
 }
 
-export const ROUTES: IRoute[] = [
+export const ROUTER: IRoute[] = [
     {
-        path: "/",
+        path: ROUTES.HOME,
         element: <HomePage />
     },
 ]

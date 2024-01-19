@@ -4,9 +4,13 @@ import { createStyles } from "../../styles/create-styles";
 export const useStyles = () =>
     createStyles({
         container: {
-            width: "100%",
+            paddingTop: "12px",
+            width: "100vw",
+            height: "8vh",
             display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
+            flexDirection: 'row',
+        },
+        buttonSpacer: {
+            marginLeft: "5px",
         }
     })

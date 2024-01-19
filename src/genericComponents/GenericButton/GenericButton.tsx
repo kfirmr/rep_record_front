@@ -21,7 +21,7 @@ const GenericButton: FC<IGButtonProps> = ({ width, color, height, onClick, text,
 
     return (
         <Button
-            onClick={() => onClick}
+            onClick={onClick}
             style={styles.container}
         >
             <Typography style={styles.text}>
