@@ -6,5 +6,9 @@ export const useStyles = () =>
         container: {
             width: "100vw",
             height: "100vh",
+            display: "flex",
+        },
+        body: {
+            paddingTop: "8vh"
         }
     })
